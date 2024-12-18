@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.Basics.Takrorlash bo'limi uchun 2-amaliy vazifa", "3.2.Basics.Takrorlash bo'limi uchun 2-amaliy vazifa.csproj", "{E8E47D85-8CFB-4349-A2FD-CBAF1C9D423C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E47D85-8CFB-4349-A2FD-CBAF1C9D423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E47D85-8CFB-4349-A2FD-CBAF1C9D423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E47D85-8CFB-4349-A2FD-CBAF1C9D423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E47D85-8CFB-4349-A2FD-CBAF1C9D423C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBD4C3D1-7BA1-40A6-979E-CDDE15ACD847}
+	EndGlobalSection
+EndGlobal
