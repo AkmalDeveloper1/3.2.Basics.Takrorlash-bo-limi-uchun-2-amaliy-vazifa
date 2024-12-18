@@ -14,11 +14,7 @@ class Program
         taskList.Add(task);
         while (true)
         {
-            Console.WriteLine("\t\t\nSizning vazifalar jadvalingiz:\n");
-            for (int count = 0; count < taskList.Count; count++)
-            {
-                Console.WriteLine($"\t{count + 1}. {taskList[count]}");
-            }
+            tasks.PrintTask(taskList);
             Console.WriteLine("\nQanday amal bajarishni hohlaysiz !!!");
             Console.WriteLine("\n\tQo'shish - 1\n\tO'chirish - 2\n\tBelgilash - 3\n\tTugatish - 4");
             Console.Write("\nAmal raqamini kiriting: ");
@@ -96,6 +92,14 @@ class Tasks
         for (int index = 0; index < indexEachMark.Length; index++)
             markList[indexEachMark[index] - 1] += " (Belgilangan)";
         return markList;
+    }
+    public void PrintTask(List<string> list)
+    {
+        Console.WriteLine("\t\t\nSizning vazifalar jadvalingiz:\n");
+        for (int count = 0; count < list.Count; count++)
+        {
+            Console.WriteLine($"\t{count + 1}. {list[count]}");
+        }
     }
 }
 
